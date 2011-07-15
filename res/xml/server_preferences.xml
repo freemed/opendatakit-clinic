@@ -1,0 +1,47 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/openmrs">
+            
+    	<EditTextPreference
+    			android:id="@+id/server"
+    	        android:key="server"
+    	        android:defaultValue="@string/default_server"
+    	        android:title="@string/server"
+    	        android:dialogTitle="@string/change_server" />
+    	        
+    	<EditTextPreference
+    	        android:id="@+id/username"
+    	        android:key="username"
+    	        android:defaultValue="@string/default_username"
+    	        android:title="@string/username"
+    	        android:dialogTitle="@string/change_username" />
+    	        
+    	<EditTextPreference
+    	        android:id="@+id/password"
+    	        android:key="password"
+    	        android:defaultValue="@string/default_password"            
+    	        android:title="@string/password"
+    	        android:dialogTitle="@string/change_password" 
+    	        android:password="true" />
+
+    </PreferenceCategory>
+      
+	<PreferenceCategory
+			android:title="@string/odk">      
+				   
+		<PreferenceScreen
+				android:id="@+id/info"
+				android:key="info"
+				android:title="@string/info"
+				android:summary="@string/default_info">
+				 
+	  			<intent android:action="android.intent.action.VIEW"
+	          			android:data="http://opendatakit.org" />
+	          
+		</PreferenceScreen>
+	         
+	</PreferenceCategory>
+	
+</PreferenceScreen>

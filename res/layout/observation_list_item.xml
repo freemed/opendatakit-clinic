@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="12dip"
+    android:paddingRight="12dip"
+    android:paddingTop="8dip"
+    android:paddingBottom="8dip">
+  
+  <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/fieldname_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:ellipsize="end"
+            android:singleLine="true"
+                        android:textStyle="bold"
+            
+        />
+        
+        <TextView
+            android:id="@+id/value_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="2dip"
+            android:paddingLeft="8dip"
+            
+        />
+        
+        <TextView
+            android:id="@+id/encounterdate_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:textSize="14sp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:gravity="right|center"
+            android:paddingLeft="8dip"
+            
+        /> 
+        
+    </LinearLayout>
+
+ 
+</LinearLayout>

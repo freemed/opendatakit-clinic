@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not
+use this file except in compliance with the License. You may obtain a copy of
+the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+License for the specific language governing permissions and limitations under
+the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="app_name">ODK Clinic</string>
+<string name="barcode_error">Barcode Scanner not installed.</string>
+<string name="cancel_download">Cancel Download</string>
+<string name="change_password">Change Password</string>
+<string name="change_server">Change URL</string>
+<string name="change_username">Change Username</string>
+<string name="connecting_server">Connecting...</string>
+<string name="default_info">v0.0.1 - http://opendatakit.org</string>
+<string name="default_password">test</string>
+<string name="default_server">http://rwinkwavu.cs.washington.edu:8080/openmrs</string>
+<string name="default_username">admin</string>
+<string name="downloading">Downloading %s...</string><string name="please_wait">Please wait a few moments.</string>
+<string name="download_patients">Download Patients</string>
+<string name="download_selected">Download Selected</string>
+<string name="error">Error: %s</string>
+<string name="finding_patient">Finding patients...</string>
+<string name="find_patient">List Patients</string>
+<string name="go_back">Go Back</string>
+<string name="info">ODK Clinic</string>
+<string name="no_cohort">No cohorts. Try refreshing.</string>
+<string name="no_items">No patients. Change Settings and Download Patients using the Menu button.</string>
+<string name="odk">Open Data Kit</string>
+<string name="openmrs">OpenMRS</string>
+<string name="password">Password</string>
+<string name="update_list">Update List</string>
+<string name="search_hint">Enter name or identifier</string>
+<string name="select_cohort">Select Cohort</string>
+<string name="server">URL</string>
+<string name="server_preferences">Change Settings</string>
+<string name="show_patient">Show Patient</string>
+<string name="storage_error">SD card not ready.</string>
+<string name="username">Username</string>
+<string name="download">Download</string>
+<string name="refresh">Refresh</string>
+<string name="cancel">Cancel</string>
+<string name="view_patient">View Patient</string>
+<string name="view_patient_detail">View Observation</string>
+
+<string name="fill_forms">Fill Forms</string>
+<string name="forms">Forms</string>
+<string name="download_forms">Download Forms</string>
+<string name="select_forms">Select Forms</string>
+<string name="no_form">No forms. Try refreshing.</string>
+<string name="new_patient">Create Patient</string>
+<string name="upload_patients">Upload Patients</string>
+<string name="uploading_patients">Uploading Patients...</string>
+<string name="upload_all_successful">%s patient(s) uploaded successfully.</string>
+<string name="upload_some_failed">Sorry, %s patient(s) failed to upload!</string>
+</resources>

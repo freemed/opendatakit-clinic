@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="8dip"
+    android:paddingRight="8dip"
+    android:paddingTop="8dip"
+    android:paddingBottom="8dip">
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+    
+        <TextView
+            android:id="@+id/identifier_text"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingRight="8dip"
+            android:textSize="14sp"
+        />
+            
+        <TextView
+            android:id="@+id/birthdate_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dip"
+            android:textSize="14sp"
+        />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+    
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+
+            android:paddingLeft="8dip"
+        />
+    
+        <ImageView
+            android:id="@+id/gender_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dip"
+            android:paddingLeft="3dip"
+        />
+    
+    </LinearLayout>
+    
+</LinearLayout>

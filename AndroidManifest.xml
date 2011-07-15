@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		package="org.odk.clinic.android" 
+		android:versionCode="1"
+		android:versionName="1.0">
+
+	<application 
+		android:icon="@drawable/icon" 
+		android:label="@string/app_name"
+		android:theme="@android:style/Theme.Light">
+		
+		<activity 
+			android:name=".activities.ListPatientActivity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity 
+            android:name=".activities.ListFormActivity"
+            android:label="@string/app_name" />
+		<activity 
+            android:name=".activities.DownloadFormActivity"
+            android:label="@string/app_name" />
+		<activity 
+			android:name=".activities.DownloadPatientActivity"
+			android:label="@string/app_name" />
+		<activity 
+			android:name=".activities.PreferencesActivity"
+			android:label="@string/app_name" />
+			<activity 
+			android:name=".activities.ViewPatientActivity"
+			android:label="@string/app_name" />
+		<activity 
+			android:name=".activities.ObservationChartActivity"
+			android:label="@string/app_name" />
+		<activity 
+			android:name=".activities.ObservationTimelineActivity"
+			android:label="@string/app_name" />
+			
+	</application>
+	
+	<uses-permission xmlns:android="http://schemas.android.com/apk/res/android" android:name="android.permission.INTERNET"/>
+	<uses-sdk android:minSdkVersion="3"></uses-sdk>
+	<supports-screens android:largeScreens="true" android:normalScreens="true" android:anyDensity="true" />
+</manifest>

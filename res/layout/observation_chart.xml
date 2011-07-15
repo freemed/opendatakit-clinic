@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+  
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_gradient"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:gravity="center"
+        android:paddingTop="6dip"
+        android:paddingBottom="6dip"
+    />
+  
+    <LinearLayout
+        android:id="@+id/chart"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip" />
+  
+</LinearLayout>
