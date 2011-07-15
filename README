@@ -1,0 +1,14 @@
+OPENDATAKIT-CLINIC
+==================
+
+This is a FreeMED port/fork of opendatakit-clinic, which is hosted here:
+
+  http://code.google.com/p/opendatakit/
+
+The original source code repository accessible with Mercurial by:
+
+  hg clone https://code.google.com/p/opendatakit.clinic/ opendatakit-clinic
+
+------------------------
+jeff@freemedsoftware.org
+
